@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import { Button } from "brunocostadafiti/Components/Button";
 import './App.css';
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> and save to reload.{" "}
+          <Button label="bruno" onClick={() => alert("Houve um clique aqui")} />
         </p>
         <a
           className="App-link"
