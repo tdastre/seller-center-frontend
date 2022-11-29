@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import { Button } from "brunocostadafiti/Components/Button";
+import { Button } from "@dafiti/seller-center/Button";
 import './App.css';
 
 function App() {
