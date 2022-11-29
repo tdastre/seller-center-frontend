@@ -9,7 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.{" "}
-          <Button label="bruno" onClick={() => alert("Houve um clique aqui")} />
+          <Button label="Seller Center" onClick={() => alert("Houve um clique aqui")} />
         </p>
         <a
           className="App-link"
